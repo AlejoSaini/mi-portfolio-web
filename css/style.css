@@ -161,7 +161,7 @@ header p{
     cursor: pointer;
     text-decoration: none;
     width: 250px;
-    height: 55px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +217,7 @@ header p{
     gap: 30%;
     flex-direction: row;
     min-width: fit-content;
-    max-width: fi;
+    max-width: fit-content;
 }
 
 .speciality p{
