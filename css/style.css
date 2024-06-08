@@ -17,6 +17,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     z-index: 100;
     padding: 7px 25px;
     background-color: #fff;
@@ -67,6 +68,12 @@ header p{
     color: rgb(57, 57,57);
 }
 
+.bars{
+    display: none;
+    font-size: 50px;
+    color: black;
+}
+
 /* ------------------------------HOME---------------------------------------- */
 
 .home{
@@ -75,6 +82,7 @@ header p{
     background-image: url(/img/bckgrnd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     height: 85vh;
 }
 
@@ -83,11 +91,10 @@ header p{
     text-align: center;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 150px;
-    top: 200px;
     justify-content: center;
     align-items: center;
+    margin-left: 10%;
+    margin-bottom: 15%;
 }
 
 .homeinfo h1{
@@ -125,10 +132,11 @@ header p{
 .about{
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     flex-direction: row;
     padding-top:  10px;
-    margin-bottom: 10px;
+    min-height: fit-content;
+    margin-bottom: 5%;
 }
 
 .about h1{
@@ -194,7 +202,7 @@ header p{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 0px 250px;
+    padding: 0 250px;
 }
 
 .skills h1{
@@ -341,7 +349,7 @@ hr {
     font-size: 75px;
     padding-left: 5%;
     padding-top: 70px;
-    text-shadow: 6px 6px 3px     rgb(221, 221, 221);
+    text-shadow: 6px 6px 3px rgb(221, 221, 221);
     margin: 0px;
     font-weight: 300;
     position: relative;
@@ -352,7 +360,7 @@ hr {
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     justify-content: center;
-    width: 1100px;
+    width: 60%;
     height: 100%;
     padding-bottom: 190px;
     margin: 0 auto;
@@ -364,8 +372,8 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    height: 262.77165354px;
+    width: 85%;
+    height: 230px;
     margin-top: 75.590551181px;
     flex-direction: column;
     border-radius: 4px;
@@ -374,11 +382,13 @@ hr {
 }
 
 .habilities div p{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
     color: #fff;
-    padding-bottom: 8px;
+    padding: 0 10px;
+    padding-bottom: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
 }
 
 .line{
@@ -421,7 +431,6 @@ footer{
     height: 100%;
     padding: 40px 75px 75px 75px;
 }
-
 
 .contactform{
     display: flex;
@@ -500,7 +509,7 @@ footer button:hover {
 }
 
 .footer-redes i{
-    margin-left: 15px;
+    margin-left: 9%;
     font-size: 28px;
     transition: 1s;
     color: #fff;

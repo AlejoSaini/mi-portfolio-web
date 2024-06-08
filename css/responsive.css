@@ -1,3 +1,263 @@
-@media (max-width:1440px){
+@media (min-width:1441px) and (max-width:1920px){
+
+}
+
+/* ----------------------------------------------------------------------------- */
+
+@media (min-width:1281px) and (max-width:1440px){
+    .about{
+        margin-bottom: 100px;
+    }
+
+    .about h1{
+        padding-left: 4%;
+    }
+}
+
+/* --------------------------------------------------------------------------------- */
+
+@media (max-width:1024px){   
+    .homeinfo{
+        margin-bottom: 25%;
+        margin-left: 5%;
+    }
+
+    .about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about h1{
+        width: 100%;
+    }
+
+    .info{
+        padding-top: 0;
+        align-items: center;
+    }
+
+    .skills{
+        padding: 0px 125px;
+    }
+
+    .habilities{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* ------------------------------------------------------------------- */
+
+@media (max-width:768px){
+    .navbar, .redes{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
     
+
+    .homeinfo{
+        position: absolute;
+        left: 25%;
+        top: 62%;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding: 0 20px 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .projects{
+        flex-direction: column;
+        margin-top: 8%;
+    }
+
+    .about h1{
+        padding-left: 0;
+    }
+
+    .habilities{
+        width: 90%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .contactform{
+        flex-direction: row;
+        width: 100%;
+        }
+
+    .footer-contact{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 7%;
+        }    
+    
+    .email, .phone{
+        margin-left: 10%;
+    }
+
+    footer button{
+        display: none;
+    }
+
+    .footer-redes{
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media (max-width:660px){
+    .homeinfo{
+        top: 65%;
+        left: 19%;
+    }
+
+    .habilities{
+        width: 100%;
+        margin-left: 1.5%;
+    }
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+@media (max-width:480px){
+    .homeinfo{
+        left: 10%;
+    }
+
+    .info{
+        padding: 0px;
+    }
+    .skills{
+        padding: 0 8%;
+    }
+    .habilities{
+        grid-template-columns: repeat(1,1fr);
+        width: 80%;
+        margin-left: 14%;
+    }
+
+    .habilities div{
+        margin-top: 8%;
+    }
+
+    .contactform{
+        flex-direction: column;
+    }
+
+    .phone{
+        padding-top: 6%;
+        margin: 0;
+    }
+}
+
+/* -------------------------------------------------------------------------------- */
+
+@media (max-width:320px){
+    .homeinfo{
+        top: 70%;
+        left: 6%;
+    }
+
+    .homeinfo h1{
+        font-size: 45px;
+    }
+
+    .homeinfo h2{
+        font-size: 25px;
+    }
+
+    hr{
+        width: 50%;
+        position: relative;
+        left: 24%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills h1{
+        font-size: 50px;
+    }
+
+    .skills p{
+        font-size: 15px;
+    }
+
+    .speciality{
+        flex-direction: column;
+    }
+
+    .aptitudes{
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .progressbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill1{
+        width: 260px;
+    }
+    
+    .skill2{
+        width: 260px;
+    }
+    
+    .skill3{
+        width: 260px;
+    }
+    
+    .skill4{
+        width: 260px;
+    }
+
+    .skill5{
+        width: 260px;
+    }
+    
+    .bar1{
+        width: 20%;
+    }
+    
+    .bar2{
+        width: 12%;
+    }
+    
+    .bar3{
+        width: 2%;
+    } 
+
+    .portfolio h1{
+        text-align: center;
+    }
+
+    .habilities{
+        width: 100%;
+        margin-left: 6%;
+    }
+
+    footer{
+        padding: 15px 0px;
+    }
+
+    .email, .phone{
+        margin: 0;
+    }
+
 }
