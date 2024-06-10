@@ -79,7 +79,7 @@ header p{
 .home{
     display: flex;
     align-items: center;
-    background-image: url(../img/bckgrnd.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
