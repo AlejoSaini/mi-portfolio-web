@@ -6,7 +6,7 @@
 
 /* ----------------------------------------------------------------------------- */
 
-@media (min-width:1281px) and (max-width:1440px){
+@media (max-width:1440px){
     .about{
         margin-bottom: 100px;
         margin-left:0 ;
@@ -27,9 +27,30 @@
 
 }
 
+/* --------------------------------------------------------------------------------------- */
+
+@media(max-widht:1280px){
+    .habilities{
+        width: 90%;
+    }
+
+    .skills{
+        padding: 0px 90px;
+        background-color: aqua;
+    }
+}
+
 /* --------------------------------------------------------------------------------- */
 
 @media (max-width:1024px){   
+    .navbar, .redes{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+    
     .homeinfo{
         margin-bottom: 25%;
         margin-left: 5%;
@@ -55,27 +76,23 @@
         padding: 0px 125px;
     }
 
+    .projects{
+        gap: 10%;
+    }
+
     .habilities{
         grid-template-columns: repeat(2,1fr);
+        width: 90%;
     }
 }
 
 /* ------------------------------------------------------------------- */
 
 @media (max-width:768px){
-    .navbar, .redes{
-        display: none;
-    }
-
-    .bars{
-        display: block;
-    }
-    
-
     .homeinfo{
         position: absolute;
         left: 25%;
-        top: 62%;
+        top: 60%;
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         padding: 0 20px 20px;
@@ -136,9 +153,31 @@
         left: 19%;
     }
 
+    .homeinfo h1{
+        font-size: 50px;
+    }
+
+    .homeinfo h2{
+        font-size: 30px;
+    }
+
+    .portfolio h1{
+        text-align: center;
+    }
+
     .habilities{
-        width: 100%;
-        margin-left: 1.5%;
+        width: 90%;
+        margin-left: 10%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .contactform{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone{
+        margin-top: 5%;
     }
 }
 
@@ -160,7 +199,7 @@
     }
 
     .homeinfo h1{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .homeinfo h2{
@@ -175,8 +214,17 @@
         padding: 0px;
     }
 
+    .about h1{
+        font-size: 50px;
+    }
+
+    .skills h1{
+        font-size: 50px;
+    }
+
     .portfolio h1{
         text-align: center;
+        font-size: 50px;
     }
 
     .aptitudes{
@@ -190,7 +238,6 @@
         padding: 0 8%;
     }
     .habilities{
-        grid-template-columns: repeat(1,1fr);
         width: 80%;
         margin-left: 14%;
     }
@@ -227,6 +274,10 @@
     .bar3{
         width: 2%;
     } 
+
+    .habilities{
+        width: 85%;
+    }
 
     .habilities div{
         margin-top: 8%;
@@ -285,69 +336,13 @@
     }
 
     hr{
-        width: 50%;
+        width: 60%;
         position: relative;
-        left: 24%;
+        left: 21%;
         text-align: center;
         justify-content: center;
         align-items: center;
     }
-
-    .skills h1{
-        font-size: 50px;
-    }
-
-    .skills p{
-        font-size: 15px;
-    }
-
-    .speciality{
-        flex-direction: column;
-    }
-
-    .aptitudes{
-        text-align: center;
-        align-items: center;
-        flex-direction: column-reverse;
-    }
-
-    .progressbar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .skill1{
-        width: 260px;
-    }
-    
-    .skill2{
-        width: 260px;
-    }
-    
-    .skill3{
-        width: 260px;
-    }
-    
-    .skill4{
-        width: 260px;
-    }
-
-    .skill5{
-        width: 260px;
-    }
-    
-    .bar1{
-        width: 20%;
-    }
-    
-    .bar2{
-        width: 12%;
-    }
-    
-    .bar3{
-        width: 2%;
-    } 
 
     .portfolio h1{
         text-align: center;
@@ -355,8 +350,8 @@
     }
 
     .habilities{
-        width: 100%;
-        margin-left: 6%;
+        width: 90%;
+        margin-left: 10%;
     }
 
     footer{
