@@ -1,5 +1,7 @@
 @media (min-width:1441px) and (max-width:1920px){
-
+    .habilities{
+        width: 85%;
+    }
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -7,11 +9,22 @@
 @media (min-width:1281px) and (max-width:1440px){
     .about{
         margin-bottom: 100px;
+        margin-left:0 ;
     }
 
     .about h1{
         padding-left: 4%;
+        
     }
+
+    .projects{
+        gap: 10%;
+    }
+
+    .habilities{
+        width: 90%;
+    }
+
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -132,13 +145,47 @@
 /* ----------------------------------------------------------------------------------- */
 
 @media (max-width:480px){
+    
+    .home{
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        margin: auto;
+    }
+    
     .homeinfo{
-        left: 10%;
+        position: absolute;
+        top:70%;
+        left: 2%   ;
+    }
+
+    .homeinfo h1{
+        font-size: 50px;
+    }
+
+    .homeinfo h2{
+        font-size: 30px;
+    }
+
+    .homeinfo a{
+        margin-top: 20px;
     }
 
     .info{
         padding: 0px;
     }
+
+    .portfolio h1{
+        text-align: center;
+    }
+
+    .aptitudes{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
     .skills{
         padding: 0 8%;
     }
@@ -148,12 +195,66 @@
         margin-left: 14%;
     }
 
+    
+    .skill1{
+        width: 260px;
+    }
+    
+    .skill2{
+        width: 260px;
+    }
+    
+    .skill3{
+        width: 260px;
+    }
+    
+    .skill4{
+        width: 260px;
+    }
+
+    .skill5{
+        width: 260px;
+    }
+    
+    .bar1{
+        width: 20%;
+    }
+    
+    .bar2{
+        width: 12%;
+    }
+    
+    .bar3{
+        width: 2%;
+    } 
+
     .habilities div{
         margin-top: 8%;
     }
 
     .contactform{
         flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-contact h2{
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+    }
+
+    .email{
+        display: flex;
     }
 
     .phone{
@@ -176,6 +277,11 @@
 
     .homeinfo h2{
         font-size: 25px;
+    }
+
+    .about h1{
+        text-align: center;
+        font-size: 60px;
     }
 
     hr{
@@ -245,6 +351,7 @@
 
     .portfolio h1{
         text-align: center;
+        font-size: 60px;
     }
 
     .habilities{
@@ -254,6 +361,7 @@
 
     footer{
         padding: 15px 0px;
+        margin: 0;
     }
 
     .email, .phone{
